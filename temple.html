@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Temple Recommendations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temple Destinations - Travel Recommendation Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Explore Temple Destinations</h1>
+  </header>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="temple.html">Temple</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="beach.html">Beach Destinations</a></li>
+      <li><a href="temple.html">Temple Destinations</a></li>
+      <li><a href="country.html">Country Destinations</a></li>
     </ul>
   </nav>
   <section>
-    <h2>Top Temple Destinations</h2>
-    <div class="destination">
-      <img src="images/temple1.jpeg" alt="Temple 1">
-      <p>Angkor Wat, Cambodia – A majestic spiritual site.</p>
-    </div>
-    <div class="destination">
-      <img src="images/temple2.jpeg" alt="Temple 2">
-      <p>Meenakshi Temple, India – A vibrant historical landmark.</p>
-    </div>
+    <h2>Temple Destinations</h2>
+    <button id="beach-btn">Show Beach Destinations</button>
+    <button id="temple-btn">Show Temple Destinations</button>
+    <button id="country-btn">Show Country Destinations</button>
+    <div id="destination-container"></div>
   </section>
+  <footer>
+    <p>Travel Recommendation Website | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
