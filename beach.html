@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Beach Recommendations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beach Destinations - Travel Recommendation Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Explore Beach Destinations</h1>
+  </header>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="beach.html">Beach</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="beach.html">Beach Destinations</a></li>
+      <li><a href="temple.html">Temple Destinations</a></li>
+      <li><a href="country.html">Country Destinations</a></li>
     </ul>
   </nav>
   <section>
-    <h2>Top Beach Destinations</h2>
-    <div class="destination">
-      <img src="images/beach1.jpeg" alt="Beach 1">
-      <p>Maldives: Crystal-clear waters and white sandy beaches.</p>
-    </div>
-    <div class="destination">
-      <img src="images/beach2.jpeg" alt="Beach 2">
-      <p>Bali: Surf, sun, and culture all in one place.</p>
-    </div>
+    <h2>Beach Destinations</h2>
+    <button id="beach-btn">Show Beach Destinations</button>
+    <button id="temple-btn">Show Temple Destinations</button>
+    <button id="country-btn">Show Country Destinations</button>
+    <div id="destination-container"></div>
   </section>
+  <footer>
+    <p>Travel Recommendation Website | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
