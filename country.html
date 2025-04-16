@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Country Recommendations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Country Destinations - Travel Recommendation Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>Explore Country Destinations</h1>
+  </header>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="country.html">Country</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="beach.html">Beach Destinations</a></li>
+      <li><a href="temple.html">Temple Destinations</a></li>
+      <li><a href="country.html">Country Destinations</a></li>
     </ul>
   </nav>
   <section>
-    <h2>Explore by Country</h2>
-    <div class="destination">
-      <img src="images/country1.jpeg" alt="Japan">
-      <p>Japan: A blend of technology and ancient traditions.</p>
-    </div>
-    <div class="destination">
-      <img src="images/country2.jpeg" alt="Italy">
-      <p>Italy: Historic cities, Mediterranean coasts, and amazing food.</p>
-    </div>
+    <h2>Country Destinations</h2>
+    <button id="beach-btn">Show Beach Destinations</button>
+    <button id="temple-btn">Show Temple Destinations</button>
+    <button id="country-btn">Show Country Destinations</button>
+    <div id="destination-container"></div>
   </section>
+  <footer>
+    <p>Travel Recommendation Website | All Rights Reserved</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
